@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="37cfe90c-ea25-4586-a96e-8e95d4f3f5da" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="TestAuto" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="JavaeeView">
+    <option name="frameworksView" value="false" />
+    <option name="showModules" value="false" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="E:\Maven\Repository" />
+        <option name="userSettingsFile" value="E:\Maven\settingsNew.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1aIHUtAIAyjLFd7ns5UB8IuCy0J" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../jars/selenium-chrome-driver-3.12.0.jar!/" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.4402299" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RunManager" selected="TestNG.testQQMailLogin.LoginDataFromCSV">
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <module name="SeleniumUIFramework" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <module name="SeleniumUIFramework" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CSV.testGetData" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumUIFramework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="util" />
+      <option name="MAIN_CLASS_NAME" value="util.CSV" />
+      <option name="METHOD_NAME" value="testGetData" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="testQQMailLogin.LoginDataFromCSV" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumUIFramework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testScripts.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testScripts" />
+      <option name="MAIN_CLASS_NAME" value="testScripts.testQQMailLogin" />
+      <option name="METHOD_NAME" value="LoginDataFromCSV" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="testQQMailLogin.LoginDataFromExcel" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumUIFramework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testScripts.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testScripts" />
+      <option name="MAIN_CLASS_NAME" value="testScripts.testQQMailLogin" />
+      <option name="METHOD_NAME" value="LoginDataFromExcel" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="testQQMailLogin.testMailLogin" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumUIFramework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testScripts.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testScripts" />
+      <option name="MAIN_CLASS_NAME" value="testScripts.testQQMailLogin" />
+      <option name="METHOD_NAME" value="testMailLogin" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.testQQMailLogin.LoginDataFromCSV" />
+        <item itemvalue="TestNG.CSV.testGetData" />
+        <item itemvalue="TestNG.testQQMailLogin.LoginDataFromExcel" />
+        <item itemvalue="TestNG.testQQMailLogin.testMailLogin" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="37cfe90c-ea25-4586-a96e-8e95d4f3f5da" name="Default Changelist" comment="" />
+      <created>1586416206065</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1586416206065</updated>
+      <workItem from="1586416210444" duration="1818000" />
+      <workItem from="1586418114551" duration="14058000" />
+      <workItem from="1586488589759" duration="11850000" />
+      <workItem from="1586574233910" duration="6703000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="944" y="361" key="#Project_Structure" timestamp="1586418707447">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="944" y="361" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1586418707447" />
+    <state x="690" y="268" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1586521295614">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="268" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586521295614" />
+    <state x="512" y="189" key="FileChooserDialogImpl" timestamp="1586426101806">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="512" y="189" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1586426101806" />
+    <state width="1876" height="535" key="GridCell.Tab.0.bottom" timestamp="1586587910485">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1876" height="535" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586587910485" />
+    <state width="1876" height="535" key="GridCell.Tab.0.center" timestamp="1586587910485">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1876" height="535" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586587910485" />
+    <state width="1876" height="535" key="GridCell.Tab.0.left" timestamp="1586587910485">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1876" height="535" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586587910485" />
+    <state width="1876" height="535" key="GridCell.Tab.0.right" timestamp="1586587910485">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1876" height="535" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586587910485" />
+    <state width="1876" height="251" key="GridCell.Tab.1.bottom" timestamp="1586587552126">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1876" height="251" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586587552126" />
+    <state width="1876" height="251" key="GridCell.Tab.1.center" timestamp="1586587552126">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1876" height="251" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586587552126" />
+    <state width="1876" height="251" key="GridCell.Tab.1.left" timestamp="1586587552126">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1876" height="251" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586587552126" />
+    <state width="1876" height="251" key="GridCell.Tab.1.right" timestamp="1586587552126">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1876" height="251" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586587552126" />
+    <state x="108" y="305" key="Maven.ArtifactSearchDialog" timestamp="1586432113865">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="108" y="305" key="Maven.ArtifactSearchDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586432113865" />
+    <state x="180" y="107" key="SettingsEditor" timestamp="1586572545326">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="180" y="107" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1586572545326" />
+    <state x="658" y="419" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1586419430389">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="658" y="419" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1920.1040@0.0.1920.1040" timestamp="1586419430389" />
+    <state x="330" y="223" key="new project wizard" timestamp="1586570150698">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="330" y="223" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1586570150698" />
+    <state x="616" y="162" width="670" height="676" key="search.everywhere.popup" timestamp="1586440792845">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="162" width="670" height="676" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1586440792845" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="TestNG">
+        <watch expression="records" />
+        <watch expression="fields[]" language="JAVA" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>
