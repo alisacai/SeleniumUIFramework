@@ -25,7 +25,6 @@ public class testQQMailLogin {
 //		driver = new FirefoxDriver();
 		System.setProperty("webdriver.chrome.driver","D:\\Chrome80\\chromedriver_win32\\chromedriver.exe");
 		driver = new ChromeDriver();
-
 		System.out.println("launch 成功");
 		driver.manage().window().maximize();
 		driver.navigate().to(baseUrl);

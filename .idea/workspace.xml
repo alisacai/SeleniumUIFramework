@@ -17,6 +17,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="JavaeeView">
     <option name="frameworksView" value="false" />
     <option name="showModules" value="false" />
@@ -36,6 +39,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1aIHUtAIAyjLFd7ns5UB8IuCy0J" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -53,7 +57,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.4402299" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RunManager" selected="TestNG.testQQMailLogin.LoginDataFromCSV">
     <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
@@ -197,7 +201,7 @@
       <workItem from="1586416210444" duration="1818000" />
       <workItem from="1586418114551" duration="14058000" />
       <workItem from="1586488589759" duration="11850000" />
-      <workItem from="1586574233910" duration="6703000" />
+      <workItem from="1586574233910" duration="6777000" />
     </task>
     <servers />
   </component>
@@ -213,10 +217,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="268" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586521295614" />
-    <state x="512" y="189" key="FileChooserDialogImpl" timestamp="1586426101806">
+    <state x="512" y="189" key="FileChooserDialogImpl" timestamp="1586599540317">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="512" y="189" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1586426101806" />
+    <state x="512" y="189" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1586599540317" />
     <state width="1876" height="535" key="GridCell.Tab.0.bottom" timestamp="1586587910485">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -253,10 +257,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="108" y="305" key="Maven.ArtifactSearchDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586432113865" />
-    <state x="180" y="107" key="SettingsEditor" timestamp="1586572545326">
+    <state x="180" y="107" key="SettingsEditor" timestamp="1586599549944">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="180" y="107" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1586572545326" />
+    <state x="180" y="107" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1586599549944" />
     <state x="658" y="419" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1586419430389">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
