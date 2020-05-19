@@ -4,7 +4,7 @@ public class Constant {
     public static final String baseUrl = "http://mail.qq.com";
 	/*
 	public static final String MailUsername = "570549054";
-	public static final String MailPassword = "Xuminhui2016..";
+	public static final String MailPassword = "xxxx";
 	public static final String ContactPersonName = "蕙蕙";
 	public static final String ContactPersonEmail ="ruiwr@qq.com";
 	public static final String ContactPersonMobile = "12345698765";

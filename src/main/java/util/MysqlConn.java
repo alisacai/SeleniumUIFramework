@@ -17,25 +17,25 @@ import org.testng.annotations.Test;
 
 public class MysqlConn {
 
-    public static Object[][] getTestData(String tablename) throws SQLException{
+    public static Object[][] getTestData(String tablename,String sqlDriver,String JdbcUrl,String jdbcUser,String jdbcPassword,String sqlStat) throws SQLException{
        //声明MySQL数据库的驱动
-        String driver = "com.mysql.jdbc.Driver";
+//        String driver = "com.mysql.jdbc.Driver";
         //声明本地数据库的IP地址和数据库名称
-        String url="jdbc:mysql://127.0.0.1:3306/gloryroad";
+//        String url="jdbc:mysql://127.0.0.1:3306/gloryroad";
         //声明数据库的用户名。为简化数据库权限设定等操作，本例使用数据库的root用户进行操作
         //在正式对外服务的生产数据库中，建议使用非root的用户账户进行自动化测试相关操作
-        String user = "root";
+//        String user = "root";
         //声明数据库root用户的登陆密码，这和MySQL数据库安装时候设定的root用户密码要保持一致
-        String password = "gloryroad";
+//        String password = "gloryroad";
 
         //声明存储测试数据的list对象
         List<Object[]> records = new ArrayList<Object[]>();
         try
         {
             //设定驱动
-            Class.forName(driver);
+            Class.forName(sqlDriver);
             //声明连接数据库的链接对象，使用数据库服务器地址、用户名和密码作为参数
-            Connection conn = DriverManager.getConnection(url,user,password);
+            Connection conn = DriverManager.getConnection(JdbcUrl,jdbcUser,jdbcPassword);
             //如果数据库链接可用，打印数据库连接成功的信息
             if(!conn.isClosed()){
                 System.out.println("连接数据库成功！");
@@ -43,9 +43,9 @@ public class MysqlConn {
             //创建statement对象
             Statement statement = conn.createStatement();
             //使用函数参数拼接要执行的SQL语句，此语句用来获取数据表的所有数据行
-            String sql = "select * from " + tablename;
+//            String sql = "select * from " + tablename;
             //声明ResultSet对象，存取执行SQL语句后返回的数据结果集
-            ResultSet rs = statement.executeQuery(sql);
+            ResultSet rs = statement.executeQuery(sqlStat);
             //声明一个ResultSetMetaData对象
             ResultSetMetaData rsMetaData = rs.getMetaData();
             //调用ResultSetMetaData对象的getColumnCount方法获取数据行的数据

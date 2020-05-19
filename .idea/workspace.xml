@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="37cfe90c-ea25-4586-a96e-8e95d4f3f5da" name="Default Changelist" comment="" />
+    <list default="true" id="37cfe90c-ea25-4586-a96e-8e95d4f3f5da" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/util/MysqlConn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/util/MysqlConn.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,6 +19,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="spring-beans.schema" />
         <option value="Class" />
       </list>
     </option>
@@ -37,6 +44,12 @@
         <option name="userSettingsFile" value="E:\Maven\settingsNew.xml" />
       </MavenGeneralSettings>
     </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
   </component>
   <component name="ProjectId" id="1aIHUtAIAyjLFd7ns5UB8IuCy0J" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -50,59 +63,45 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../jars/selenium-chrome-driver-3.12.0.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../alisaspringmvc/alisaspringmvc/pom.xml" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.4402299" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
   </component>
-  <component name="RunManager" selected="TestNG.testQQMailLogin.LoginDataFromCSV">
-    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
-      <module name="SeleniumUIFramework" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
+  <component name="RunManager" selected="Spring Boot.SpringtestApplication">
+    <configuration name="TestRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Cucumber" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="CucumberTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="CucumberTest" />
+      <option name="MAIN_CLASS_NAME" value="CucumberTest.TestRunner" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
-      <module name="SeleniumUIFramework" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
+    <configuration name="SpringmvcApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springmvc" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.alisa.springmvc.SpringmvcApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringtestApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springtest" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.alisa.springtest.SpringtestApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -181,6 +180,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestRunner" />
         <item itemvalue="TestNG.testQQMailLogin.LoginDataFromCSV" />
         <item itemvalue="TestNG.CSV.testGetData" />
         <item itemvalue="TestNG.testQQMailLogin.LoginDataFromExcel" />
@@ -201,74 +201,108 @@
       <workItem from="1586416210444" duration="1818000" />
       <workItem from="1586418114551" duration="14058000" />
       <workItem from="1586488589759" duration="11850000" />
-      <workItem from="1586574233910" duration="6777000" />
+      <workItem from="1586574233910" duration="7730000" />
+      <workItem from="1586676396692" duration="1862000" />
+      <workItem from="1586745859918" duration="8432000" />
+      <workItem from="1587271535928" duration="923000" />
+      <workItem from="1589016390719" duration="385000" />
+      <workItem from="1589018215173" duration="6000" />
+      <workItem from="1589018257907" duration="8940000" />
+      <workItem from="1589091171798" duration="1817000" />
+      <workItem from="1589168036273" duration="790000" />
+      <workItem from="1589176856218" duration="596000" />
+      <workItem from="1589177703832" duration="1987000" />
     </task>
+    <task id="LOCAL-00001" summary="add some test words">
+      <created>1587271854848</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1587271854848</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add some test words" />
+    <option name="LAST_COMMIT_MESSAGE" value="add some test words" />
   </component>
   <component name="WindowStateProjectService">
     <state x="944" y="361" key="#Project_Structure" timestamp="1586418707447">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="944" y="361" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1586418707447" />
+    <state x="0" y="424" key="#com.intellij.ide.util.MemberChooser" timestamp="1589030447070">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="0" y="424" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1589030447070" />
     <state x="690" y="268" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1586521295614">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="268" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586521295614" />
-    <state x="512" y="189" key="FileChooserDialogImpl" timestamp="1586599540317">
+    <state x="544" y="115" key="CommitChangelistDialog2" timestamp="1587271853547">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="512" y="189" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1586599540317" />
-    <state width="1876" height="535" key="GridCell.Tab.0.bottom" timestamp="1586587910485">
+    <state x="544" y="115" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1587271853547" />
+    <state x="512" y="189" key="FileChooserDialogImpl" timestamp="1589179094987">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="535" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586587910485" />
-    <state width="1876" height="535" key="GridCell.Tab.0.center" timestamp="1586587910485">
+    <state x="512" y="189" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1589179094987" />
+    <state width="1860" height="314" key="GridCell.Tab.0.bottom" timestamp="1589038663636">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="535" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586587910485" />
-    <state width="1876" height="535" key="GridCell.Tab.0.left" timestamp="1586587910485">
+    <state width="1860" height="314" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1589038663636" />
+    <state width="1860" height="314" key="GridCell.Tab.0.center" timestamp="1589038663636">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="535" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586587910485" />
-    <state width="1876" height="535" key="GridCell.Tab.0.right" timestamp="1586587910485">
+    <state width="1860" height="314" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1589038663636" />
+    <state width="1860" height="314" key="GridCell.Tab.0.left" timestamp="1589038663636">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="535" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586587910485" />
-    <state width="1876" height="251" key="GridCell.Tab.1.bottom" timestamp="1586587552126">
+    <state width="1860" height="314" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1589038663636" />
+    <state width="1860" height="314" key="GridCell.Tab.0.right" timestamp="1589038663636">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="251" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586587552126" />
-    <state width="1876" height="251" key="GridCell.Tab.1.center" timestamp="1586587552126">
+    <state width="1860" height="314" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1589038663636" />
+    <state width="1860" height="314" key="GridCell.Tab.1.bottom" timestamp="1589038663636">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="251" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586587552126" />
-    <state width="1876" height="251" key="GridCell.Tab.1.left" timestamp="1586587552126">
+    <state width="1860" height="314" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1589038663636" />
+    <state width="1860" height="314" key="GridCell.Tab.1.center" timestamp="1589038663636">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="251" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586587552126" />
-    <state width="1876" height="251" key="GridCell.Tab.1.right" timestamp="1586587552126">
+    <state width="1860" height="314" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1589038663636" />
+    <state width="1860" height="314" key="GridCell.Tab.1.left" timestamp="1589038663636">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="251" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586587552126" />
-    <state x="108" y="305" key="Maven.ArtifactSearchDialog" timestamp="1586432113865">
+    <state width="1860" height="314" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1589038663636" />
+    <state width="1860" height="314" key="GridCell.Tab.1.right" timestamp="1589038663636">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="108" y="305" key="Maven.ArtifactSearchDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586432113865" />
-    <state x="180" y="107" key="SettingsEditor" timestamp="1586599549944">
+    <state width="1860" height="314" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1589038663636" />
+    <state x="108" y="305" key="Maven.ArtifactSearchDialog" timestamp="1586748988818">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="180" y="107" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1586599549944" />
+    <state x="108" y="305" key="Maven.ArtifactSearchDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586748988818" />
+    <state x="180" y="107" key="SettingsEditor" timestamp="1589179097974">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="180" y="107" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1589179097974" />
+    <state x="552" y="255" key="Vcs.Push.Dialog.v2" timestamp="1587271867346">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="255" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1587271867346" />
     <state x="658" y="419" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1586419430389">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="658" y="419" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1920.1040@0.0.1920.1040" timestamp="1586419430389" />
-    <state x="330" y="223" key="new project wizard" timestamp="1586570150698">
+    <state x="158" y="159" key="new project wizard" timestamp="1589177135047">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="330" y="223" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1586570150698" />
+    <state x="158" y="159" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1589177135047" />
     <state x="616" y="162" width="670" height="676" key="search.everywhere.popup" timestamp="1586440792845">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
