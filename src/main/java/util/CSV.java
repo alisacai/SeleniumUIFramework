@@ -19,16 +19,16 @@ import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 public class CSV {
-    public static Object[][] getTestData(String fileName) throws IOException{
+    public static Object[][] getTestData(String fileName) throws IOException {
         List<Object[]> records = new ArrayList<Object[]>();
         String record;
         FileInputStream fis = new FileInputStream(fileName);
-        InputStreamReader isr = new InputStreamReader(fis,"UTF-8");
+        InputStreamReader isr = new InputStreamReader(fis, "UTF-8");
         BufferedReader file = new BufferedReader(isr);
         file.readLine();
 
-        while((record=file.readLine())!=null){
-            String newRecord = record.replace("\"","");
+        while ((record = file.readLine()) != null) {
+            String newRecord = record.replace("\"", "");
             String fields[] = record.split(",");
             records.add(fields);
         }
@@ -36,13 +36,13 @@ public class CSV {
 
         Object[][] results = new Object[records.size()][];
 
-        for(int i=0;i<records.size();i++){
+        for (int i = 0; i < records.size(); i++) {
             results[i] = records.get(i);
         }
         return results;
     }
 
-//    @Test
+//
 //    public void testGetData() throws IOException {
 //        getTestData(Constant.TestDataCSVFilePath);
 //    }

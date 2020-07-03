@@ -5,7 +5,7 @@ import pageObject.LoginPage;
 import util.Log;
 
 public class Login_Action {
-    public static void execute(WebDriver driver, String username, String password) throws Exception{
+    public static void execute(WebDriver driver, String username, String password) throws Exception {
         Log.info("访问网址http://mail.qq.com");
         driver.get("http://mail.qq.com/");
         Log.info("切换到登录模块所在的frame");

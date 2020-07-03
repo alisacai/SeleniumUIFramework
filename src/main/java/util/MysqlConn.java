@@ -17,8 +17,8 @@ import org.testng.annotations.Test;
 
 public class MysqlConn {
 
-    public static Object[][] getTestData(String tablename,String sqlDriver,String JdbcUrl,String jdbcUser,String jdbcPassword,String sqlStat) throws SQLException{
-       //声明MySQL数据库的驱动
+    public static Object[][] getTestData(String tablename, String sqlDriver, String JdbcUrl, String jdbcUser, String jdbcPassword, String sqlStat) throws SQLException {
+        //声明MySQL数据库的驱动
 //        String driver = "com.mysql.jdbc.Driver";
         //声明本地数据库的IP地址和数据库名称
 //        String url="jdbc:mysql://127.0.0.1:3306/gloryroad";
@@ -30,14 +30,13 @@ public class MysqlConn {
 
         //声明存储测试数据的list对象
         List<Object[]> records = new ArrayList<Object[]>();
-        try
-        {
+        try {
             //设定驱动
             Class.forName(sqlDriver);
             //声明连接数据库的链接对象，使用数据库服务器地址、用户名和密码作为参数
-            Connection conn = DriverManager.getConnection(JdbcUrl,jdbcUser,jdbcPassword);
+            Connection conn = DriverManager.getConnection(JdbcUrl, jdbcUser, jdbcPassword);
             //如果数据库链接可用，打印数据库连接成功的信息
-            if(!conn.isClosed()){
+            if (!conn.isClosed()) {
                 System.out.println("连接数据库成功！");
             }
             //创建statement对象
@@ -51,36 +50,36 @@ public class MysqlConn {
             //调用ResultSetMetaData对象的getColumnCount方法获取数据行的数据
             int cols = rsMetaData.getColumnCount();
             //使用next方法遍历数据结果集中的所有数据行
-            while(rs.next()){
+            while (rs.next()) {
                 //声明一个字符型数组，数组大小使用数据行的列个数进行声明
                 String fields[] = new String[cols];
                 int col = 0;
                 //遍历所有数据行中的所有列数据，并存储在字符数组中
-                for(int colIdx = 0; colIdx<cols; colIdx++){
-                    fields[col] = rs.getString(colIdx+1);
+                for (int colIdx = 0; colIdx < cols; colIdx++) {
+                    fields[col] = rs.getString(colIdx + 1);
                     col++;
                 }
                 //将每一行的数据存储到字符数据后，存储到records中
                 records.add(fields);
                 //数据数据行中的前三列内容，用于验证数据库内容是否正确取出
-                System.out.println(rs.getString(1)+" "+rs.getString(2)+" " + rs.getString(3));
+                System.out.println(rs.getString(1) + " " + rs.getString(2) + " " + rs.getString(3));
             }
             //关闭数据结果集对象
             rs.close();
             //关闭数据库连接
             conn.close();
 
-        }catch(ClassNotFoundException e){
+        } catch (ClassNotFoundException e) {
             System.out.println("未能找到MySQL的驱动类");
             e.printStackTrace();
-        }catch(SQLException e){
+        } catch (SQLException e) {
             e.printStackTrace();
         }
         //定义函数返回值，即Object[][]
         //将存储测试数据的list转换为一个Object的二位数组
         Object[][] results = new Object[records.size()][];
         //设置二位数组每行的值，每行是一个Object对象
-        for(int i=0;i<records.size();i++){
+        for (int i = 0; i < records.size(); i++) {
             results[i] = records.get(i);
         }
         return results;

@@ -11,7 +11,7 @@ public class ObjectMap {
 
     Properties properties;
 
-    public ObjectMap(String filePath){
+    public ObjectMap(String filePath) {
         properties = new Properties();
 
         try {
@@ -25,27 +25,27 @@ public class ObjectMap {
         }
     }
 
-    public By getLocator(String elementNameInPropFile) throws Exception{
+    public By getLocator(String elementNameInPropFile) throws Exception {
         String locator = properties.getProperty(elementNameInPropFile);
         String locatorType = locator.split(":")[0];
         String locatorValue = locator.split(":")[1];
 
-        if(locatorType.toLowerCase().equals("id"))
+        if (locatorType.toLowerCase().equals("id"))
             return By.id(locatorValue);
-        else if(locatorType.toLowerCase().equals("name"))
+        else if (locatorType.toLowerCase().equals("name"))
             return By.name(locatorValue);
-        else if(locatorType.toLowerCase().equals("classname")||locatorType.toLowerCase().equals("class"))
+        else if (locatorType.toLowerCase().equals("classname") || locatorType.toLowerCase().equals("class"))
             return By.className(locatorValue);
-        else if(locatorType.toLowerCase().equals("tagname")||locatorType.toLowerCase().equals("tag"))
+        else if (locatorType.toLowerCase().equals("tagname") || locatorType.toLowerCase().equals("tag"))
             return By.tagName(locatorValue);
-        else if(locatorType.toLowerCase().equals("link")||locatorType.toLowerCase().equals("linktext"))
+        else if (locatorType.toLowerCase().equals("link") || locatorType.toLowerCase().equals("linktext"))
             return By.linkText(locatorValue);
-        else if(locatorType.toLowerCase().equals("partiallinktext"))
+        else if (locatorType.toLowerCase().equals("partiallinktext"))
             return By.partialLinkText(locatorValue);
-        else if(locatorType.toLowerCase().equals("cssSelector"))
+        else if (locatorType.toLowerCase().equals("cssSelector"))
             return By.cssSelector(locatorValue);
-        else if(locatorType.toLowerCase().equals("xpath"))
+        else if (locatorType.toLowerCase().equals("xpath"))
             return By.xpath(locatorValue);
-        else throw new Exception("输入的locator type未在程序中被定义:"+locatorType);
+        else throw new Exception("输入的locator type未在程序中被定义:" + locatorType);
     }
 }
